@@ -210,29 +210,35 @@ checklist-checkpoint-line.inGroup[depth="1"] .Checkbox {
   margin-left: calc(var(--screenHeight) * (68px / 2160) );
 }
 checklist-checkpoint-line.inGroup[depth="2"] .Checkbox {
-  padding-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) )));
+  margin-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) )));
 }
 checklist-checkpoint-line.inGroup[depth="3"] .Checkbox {
-  padding-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 2));
+  margin-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 2));
 }
 checklist-checkpoint-line.inGroup[depth="4"] .Checkbox {
-  padding-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 3));
+  margin-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 3));
 }
 checklist-checkpoint-line.inGroup[depth="5"] .Checkbox {
-  padding-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 4));
+  margin-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 4));
 }
 checklist-checkpoint-line.inGroup[depth="6"] .Checkbox {
-  padding-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 5));
+  margin-left: calc( calc(var(--screenHeight) * (68px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 5));
 }
 
 checklist-checkpoint-line-group.inGroup[depth="1"] .Expand {
   left: calc(var(--screenHeight) * (144px / 2160) );
+}
+checklist-checkpoint-line-group.inGroup[depth="1"] .line .Subject {
+  padding-left: calc(var(--screenHeight) * (144px / 2160) );
 }
 checklist-checkpoint-line-group.inGroup[depth="1"] .background {
   padding-left: calc(var(--screenHeight) * (78px / 2160) );
 }
 checklist-checkpoint-line-group.inGroup[depth="2"] .Expand {
   left: calc( calc(var(--screenHeight) * (144px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) )));
+}
+checklist-checkpoint-line-group.inGroup[depth="2"] .line .Subject {
+  padding-left: calc( calc(var(--screenHeight) * (144px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) ) * 1));
 }
 checklist-checkpoint-line-group.inGroup[depth="2"] .background {
   padding-left: calc( calc(var(--screenHeight) * (78px / 2160) ) + calc(calc(var(--screenHeight) * (60px / 2160) )));
